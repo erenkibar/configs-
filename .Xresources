@@ -1,46 +1,74 @@
 ! special
-*.foreground:   #ffffff
-*.background:   #161616
-*.cursorColor:  #ffffff
+*.foreground:   #bbbbbb
+*.background:   #0b0b0b
+*.cursorColor:  #bbbbbb
 
 ! black
-*.color0:       #222222
-*.color8:       #666666
+*.color0:       #1b1918
+*.color8:       #4f4f4f
 
 ! red
-*.color1:       #e84f4f
-*.color9:       #d23d3d
+*.color1:       #f22c40
+*.color9:       #f85262
 
 ! green
-*.color2:       #b7ce42
-*.color10:      #bde077
+*.color2:       #5ab738
+*.color10:      #7bd15b
 
 ! yellow
-*.color3:       #fea63c
-*.color11:      #ffe863
+*.color3:       #d5911a
+*.color11:      #e9ad44
 
 ! blue
-*.color4:       #66aabb
-*.color12:      #aaccbb
+*.color4:       #3971ed
+*.color12:      #5e8af1
 
 ! magenta
-*.color5:       #b7416e
-*.color13:      #e16a98
+*.color5:       #e85b92
+*.color13:      #f181ac
 
 ! cyan
-*.color6:       #6d878d
-*.color14:      #42717b
+*.color6:       #00ad9c
+*.color14:      #26b3a4
 
 ! white
-*.color7:       #dddddd
-*.color15:      #cccccc
+*.color7:       #cccccc
+*.color15:      #848282
+
+
+! Rofi colors.
+rofi.color-window: #090d15, #090d15, #595854
+rofi.color-normal: #090d15, #F9E7D1, #090d15, #595854, #090d15
+rofi.color-active: #090d15, #F9E7D1, #090d15, #595854, #090d15
+rofi.color-urgent: #090d15, #32474D, #090d15, #32474D, #F9E7D1
+
+! Xclock colors.
+XClock*foreground: #F9E7D1
+XClock*background: #090d15
+XClock*majorColor:  rgba:f9/e7/d1/ff
+XClock*minorColor:  rgba:f9/e7/d1/ff
+XClock*hourColor:   rgba:f9/e7/d1/ff
+XClock*minuteColor: rgba:f9/e7/d1/ff
+XClock*secondColor: rgba:f9/e7/d1/ff
+
+
+
+rofi.color-window: #090d15, #090d15, #595854
+rofi.color-normal: #090d15, #F9E7D1, #090d15, #595854, #090d15
+rofi.color-active: #090d15, #F9E7D1, #090d15, #595854, #090d15
+rofi.color-urgent: #090d15, #32474D, #090d15, #32474D, #F9E7D1
+
+
+
+
 ! do not scroll with output
 URxvt*scrollTtyOutput: false
-
-URxvt.font: xft:hack:size=12
-
+URxvt.font: xft:Monaco:size=11,\
+            xft:Noto Sans Old Turkic Regular:size=11
+URxvt.internalBorder:25
 URxvt*scrollBar:        false
 URxvt.urlLauncher: /usr/bin/firefox
 URxvt.perl-ext-common: default,matcher
 URxvt.url-launcher: /usr/bin/xdg-open
 URxvt.matcher.button: 1
+URxvt.letterSpace: 0 
